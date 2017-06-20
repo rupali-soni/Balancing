@@ -35,9 +35,9 @@ class Balance {
     }
  
     /**
-     * checkLength
+     * checkMatchingBrackets
      * @Version 1.0.0
-     * @Description If given string has even values then return true else false.
+     * @Description Check if string has balanced brackets or not
      *
      * @Param {String} val string input
      * @Return {Boolean}
@@ -125,7 +125,7 @@ class Balance {
     }
 }
  
-//Create an array
+//Create test cases
 var arr = [
     '() [] () ([] () [])',
     '((s ]([)]',
